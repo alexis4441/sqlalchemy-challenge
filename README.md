@@ -51,5 +51,5 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
    - For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
    - For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 ## Hints
--- Join the station and measurement tables for some of the queries.
--- Use the Flask jsonify function to convert your API data to a valid JSON response object.
+- Join the station and measurement tables for some of the queries.
+- Use the Flask jsonify function to convert your API data to a valid JSON response object.
